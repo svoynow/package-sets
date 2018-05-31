@@ -241,6 +241,23 @@
     "repo": "https://github.com/purescript/purescript-distributive.git",
     "version": "v4.0.0"
   },
+  "dom": {
+    "dependencies": [
+      "arraybuffer-types",
+      "datetime",
+      "enums",
+      "exceptions",
+      "foldable-traversable",
+      "foreign",
+      "js-date",
+      "media-types",
+      "nullable",
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "git://github.com/purescript-web/purescript-dom.git",
+    "version": "v4.16.0"
+  },
   "dom-classy": {
     "dependencies": [
       "dom"
