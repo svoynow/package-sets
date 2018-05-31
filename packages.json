@@ -949,7 +949,7 @@
     "dependencies": [
       "web-html"
     ],
-    "repo": "https://github.com/purescript-web/purescript-web-uievents.git",
+    "repo": "git://github.com/purescript-web/purescript-web-uievents.git",
     "version": "v1.0.0"
   }
 }
