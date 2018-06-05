@@ -131,6 +131,17 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v4.0.0"
   },
+  "browserfeatures": {
+    "dependencies": [
+      "dom",
+      "exceptions",
+      "maps",
+      "prelude",
+      "refs"
+    ],
+    "repo": "https://github.com/slamdata/purescript-browserfeatures",
+    "version": "v5.0.0"
+  },
   "catenable-lists": {
     "dependencies": [
       "control",
@@ -275,6 +286,14 @@
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
     "version": "v6.0.0"
   },
+  "eff": {
+    "dependencies": [
+      "monoid",
+      "prelude"
+    ],
+    "repo": "git://github.com/purescript/purescript-eff.git",
+    "version": "v3.2.1"
+  },
   "effect": {
     "dependencies": [
       "prelude"
@@ -392,6 +411,18 @@
       "aff"
     ],
     "repo": "https://github.com/slamdata/purescript-fork.git",
+    "version": "v4.0.0"
+  },
+  "form-urlencoded": {
+    "dependencies": [
+      "globals",
+      "maybe",
+      "newtype",
+      "prelude",
+      "strings",
+      "tuples"
+    ],
+    "repo": "git://github.com/purescript-contrib/purescript-form-urlencoded.git",
     "version": "v4.0.0"
   },
   "free": {
@@ -540,6 +571,15 @@
     "repo": "https://github.com/slamdata/purescript-halogen-vdom.git",
     "version": "v3.0.0"
   },
+  "http-methods": {
+    "dependencies": [
+      "either",
+      "prelude",
+      "strings"
+    ],
+    "repo": "git://github.com/purescript-contrib/purescript-http-methods.git",
+    "version": "v4.0.0"
+  },
   "identity": {
     "dependencies": [
       "control",
@@ -641,6 +681,20 @@
     ],
     "repo": "https://github.com/purescript-contrib/purescript-machines.git",
     "version": "v5.0.0"
+  },
+  "markdown-halogen": {
+    "dependencies": [
+      "browserfeatures",
+      "halogen",
+      "halogen-datepicker",
+      "markdown",
+      "prelude",
+      "sets",
+      "strongcheck",
+      "validation"
+    ],
+    "repo": "git://github.com/slamdata/purescript-markdown-halogen.git",
+    "version": "v9.0.1"
   },
   "math": {
     "dependencies": [],
@@ -1147,5 +1201,16 @@
     ],
     "repo": "git://github.com/purescript-web/purescript-web-uievents.git",
     "version": "v1.0.0"
+  },
+  "web-xhr": {
+    "dependencies": [
+      "arraybuffer-types",
+      "datetime",
+      "http-methods",
+      "web-dom",
+      "web-file"
+    ],
+    "repo": "git://github.com/purescript-web/purescript-web-xhr.git",
+    "version": "v2.0.0"
   }
 }
